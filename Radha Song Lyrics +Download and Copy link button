@@ -1,0 +1,544 @@
+<!-- Created by cinewood -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!---cooy text---->
+<script>
+                
+                function copyToClipboard(text){
+    var hiddentext = document.createElement('textarea');
+    hiddentext.value = text;
+    document.body.appendChild(hiddentext);
+    hiddentext.select();
+    document.execCommand('copy');
+    document.body.removeChild(hiddentext);
+    alert("Copied To Clipboard: " + hiddentext.value);
+}
+
+</script>
+<style>
+    
+
+button {
+    padding:2px;
+    border: none;
+   
+    font-family: sans-serif;
+    background-color: #f53b57;
+    transition-duration: 0.3s;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    color: red;
+    cursor: pointer;
+    z-index: 1;
+    width:200px;
+    height:60px;
+}
+
+button:hover {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+button:active{
+    background-color: #f53b57;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+                 </style>
+
+
+<!----copy text--->
+
+<meta name="title" content="Radha Song by Dhanvi bhanushali lyrics"> <meta name="description" content="Radha Lyrics by Dhvani Bhanushali is Latest Hindi song sung by Dhvani Bhanushali and music of this brand new song is composed by Abhijit Vaghani. Radha song lyrics are penned down by Kunaal Vermaa and video is directed by Karan Kapadia."> <meta name="keywords" content="radha song,dhavni,radha song by dhavni,radha song lyrics by dhavnu,lut gaye song lyrics by jubin,lyricxer,bollyubeauty"> <meta name="robots" content="index, follow"> <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> <meta name="language" content="English"> <meta name="author" content="Bollyubeauty">
+
+
+
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Lobster');
+
+button1{
+
+  position: absolute;
+  top: 200%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 180px;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  font-size: 34px;
+  color: black;
+  text-transform: capitalize;
+  font-family: 'lobster';
+  letter-spacing: 4px;
+  cursor: pointer;
+  background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+  background-size: 400%;
+  border-radius: 60px;
+}
+
+button1:hover {
+  animation: animate 8s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 400%;
+  }
+}
+button1:before{
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  bottom: -5px;
+  right: -5px;
+  z-index: -1;
+  background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+  background-size: 400%;
+  border-radius: 40px;
+  opacity: 0;
+  transition: all .5s ease;
+}
+button1:hover:before{
+  filter: blur(20px);
+  opacity: 1;
+  animation: animate 8s linear infinite;
+}            
+         
+
+/* button code above*/
+* {
+  box-sizing: border-box;
+  
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 100px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+
+
+
+/* small */
+
+
+* {
+  box-sizing: border-box;
+  
+}
+
+/* Create two equal columns that floats next to each other */
+.column2 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 60px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+
+
+
+
+
+   /* Created by cinewood */
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;500;600&display=swap");
+div {
+  font-family: Raleway;
+}
+#loader {
+  animation: load 2s infinite linear;
+}
+@keyframes load {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.material-icons.md-36 {
+  font-size: 36px;
+}
+.alignnone{
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 
+                0 10px 10px -5px rgba(0, 0, 0, 0.05);
+}
+img{
+    height:auto;
+}
+.ttl{
+    background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+}
+.slide-fade-enter-active {
+  transition: all .7s ease-in;
+}
+.slide-fade-leave-active {
+  transition: all .4s ease-out;
+}
+.slide-fade-enter, .slide-fade-leave-to
+/* .slide-fade-leave-active below version 2.1.8 */ {
+  transform: translateX(20px);
+  opacity: 0;
+}
+.card{
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+iframe{
+    width:300px;
+    height:auto;
+}
+    
+</style>
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.12/vue.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js"></script>
+<body class="bg-gray-300" style="color:black">
+    <div id="app">
+        <div class="text-3xl block border-b font-light flex p-2 ttl text-white w-full shadow-lg">
+            
+            <span class="flex justify-center mx-auto">lyricxer 💚</span>
+            
+        </div>
+        
+    
+        
+       
+    <div class="px-"><div class="flex bg-white rounded shadow-xl p-4 my-3"><div id="ly" class="flex flex-col">
+<img class="alignnone" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdy_pzLb3UjGS5khSzHlAib_OVoMcJfVTZXA&usqp=CAU" alt="Radha Lyrics by dhavni bhanushali" width="100%">
+    
+<div class="text-red-500 text-xl w-full font-semibold text-center py-3"><h1>Radha Song Lyrics by Dhavni</h1></div>
+    
+<!------ lyrics----------->
+
+<style="box-sizing: border-box; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: 1.6; font-family: &quot;open sans&quot;, serif; font-size: 15px; margin: 0px 0px 15px; outline: 0px; padding: 0px; vertical-align: baseline; color: rgb(68, 68, 68); background-color: rgb(234, 234, 234);">Raatein Poori Ho Na Mulakatein<br style="box-sizing: border-box;">Aadhi Aadhi Si Baatein<br style="box-sizing: border-box;">Ab Sunlo Meri Zaraa</p><p style="box-sizing: border-box; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: 1.6; font-family: &quot;open sans&quot;, serif; font-size: 15px; margin: 0px 0px 15px; outline: 0px; padding: 0px; vertical-align: baseline; color: rgb(68, 68, 68); background-color: rgb(234, 234, 234);">Tujhse Main Ye Keh Bhi Du<br style="box-sizing: border-box;">Shayad Is Dil Ko Behne Du<br style="box-sizing: border-box;">Kya Tumhe Bhi Aisa Lagta Hai<br style="box-sizing: border-box;">Ki Mera Tumhara Ek Hi Kehna Hai</p><p style="box-sizing: border-box; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: 1.6; font-family: &quot;open sans&quot;, serif; font-size: 15px; margin: 0px 0px 15px; outline: 0px; padding: 0px; vertical-align: baseline; color: rgb(68, 68, 68); background-color: rgb(234, 234, 234);">Ho Gayi Main Jogan Saiyaan<br style="box-sizing: border-box;">Tumse Mann Laga<br style="box-sizing: border-box;">Jo Bane Tu Mohan Saiyaan<br style="box-sizing: border-box;">Main Banun Radha</p><p style="box-sizing: border-box; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: 1.6; font-family: &quot;open sans&quot;, serif; font-size: 15px; margin: 0px 0px 15px; outline: 0px; padding: 0px; vertical-align: baseline; color: rgb(68, 68, 68); background-color: rgb(234, 234, 234);">Chahti Hu Tujhko Main To<br style="box-sizing: border-box;">Khud Se Bhi Zyada<br style="box-sizing: border-box;">Jo Bane Tu Mohan Saiyaan<br style="box-sizing: border-box;">Main Banun Radha</p><p style="box-sizing: border-box; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: 1.6; font-family: &quot;open sans&quot;, serif; font-size: 15px; margin: 0px 0px 15px; outline: 0px; padding: 0px; vertical-align: baseline; color: rgb(68, 68, 68); background-color: rgb(234, 234, 234);">Mujhko Naseeb Se Mila Hai<br style="box-sizing: border-box;">Aake Kareeb Kyun Ruka Hai<br style="box-sizing: border-box;">Tere Liye Thi Main Akeli<br style="box-sizing: border-box;">Faasla Tu Mita Jaane Kya</p><p style="box-sizing: border-box; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: 1.6; font-family: &quot;open sans&quot;, serif; font-size: 15px; margin: 0px 0px 15px; outline: 0px; padding: 0px; vertical-align: baseline; color: rgb(68, 68, 68); background-color: rgb(234, 234, 234);">Socha Tha Maine<br style="box-sizing: border-box;">Jaise Tu Chahe Waisi Main Banu<br style="box-sizing: border-box;">Aage Tu Piche Piche Main Chalu<br style="box-sizing: border-box;">Kya Tumhein Bhi Aisa Lagta Hai<br style="box-sizing: border-box;">Ki Mera Tumhara Ek Hi Kehna Hai</p><p style="box-sizing: border-box; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: 1.6; font-family: &quot;open sans&quot;, serif; font-size: 15px; margin: 0px 0px 15px; outline: 0px; padding: 0px; vertical-align: baseline; color: rgb(68, 68, 68); background-color: rgb(234, 234, 234);">Ho Gayi Main Jogan Saiyaan<br style="box-sizing: border-box;">Tumse Mann Laga<br style="box-sizing: border-box;">Jo Bane Tu Mohan Saiyaan<br style="box-sizing: border-box;">Main Banun Radha</p><p style="box-sizing: border-box; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: 1.6; font-family: &quot;open sans&quot;, serif; font-size: 15px; margin: 0px 0px 15px; outline: 0px; padding: 0px; vertical-align: baseline; color: rgb(68, 68, 68); background-color: rgb(234, 234, 234);">Chahti Hu Tujhko Main Toh<br style="box-sizing: border-box;">Khud Se Bhi Zyada<br style="box-sizing: border-box;">Jo Bane Tu Mohan Saiyaan<br style="box-sizing: border-box;">Main Banun Radha</p><p><br style="box-sizing: border-box; color: rgb(68, 68, 68); font-family: &quot;open sans&quot;, serif; font-size: 16px; background-color: rgb(234, 234, 234);"><br></p>
+<!--Ads--->
+<script type="text/javascript">
+    atOptions = {
+        'key' : '791b1ffa1ae2e595be92f25fb5459f2f',
+        'format' : 'iframe',
+        'height' : 90,
+        'width' : 728,
+        'params' : {}
+    };
+    document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.topdisplaynetwork.com/791b1ffa1ae2e595be92f25fb5459f2f/invoke.js"></scr' + 'ipt>');
+</script>
+
+<!---Ads--->
+<center>
+                <i>Godzilla vs kong (2019)</i>:    
+      <button onclick="copyToClipboard('https://primeuploads.com/ad58b36e65957e67/G0dz1lla_K1ng_0f_the_M0nst3rs')">Copy Link</button>
+        <br />
+        </center>
+<!--Ads--->
+
+
+<script type="text/javascript">
+    atOptions = {
+        'key' : '791b1ffa1ae2e595be92f25fb5459f2f',
+        'format' : 'iframe',
+        'height' : 90,
+        'width' : 728,
+        'params' : {}
+    };
+    document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.topdisplaynetwork.com/791b1ffa1ae2e595be92f25fb5459f2f/invoke.js"></scr' + 'ipt>');
+</script>
+
+<!---Ads---->
+<center>
+                <i>Godzilla vs kong (20120)</i>:    
+      <button onclick="copyToClipboard('https://letsupload.io/3wF6k/K0ng_Sku1l_Isl@nd_@GDRIVEMOVIELINKORG_TELEGRAM.mkv')">Copy Link</button>
+        <br />
+        </center>
+<!--Ads--->
+
+
+<script type="text/javascript">
+    atOptions = {
+        'key' : '791b1ffa1ae2e595be92f25fb5459f2f',
+        'format' : 'iframe',
+        'height' : 90,
+        'width' : 728,
+        'params' : {}
+    };
+    document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.topdisplaynetwork.com/791b1ffa1ae2e595be92f25fb5459f2f/invoke.js"></scr' + 'ipt>');
+</script>
+
+<!---Ads---->
+<center>
+                <i>Godzilla vs kong (2021) 1080</i>:    
+      <button onclick="copyToClipboard('https://primeuploads.com/c3a5a2b7af465213/G0dz1lla_vs._K0ng_@GDRIVEMOVIELINKORG_TELEGRAM_1o8o_(2021).mkv')">Copy Link</button>
+        <br />
+        </center>
+<!--Ads--->
+
+
+<script type="text/javascript">
+    atOptions = {
+        'key' : '791b1ffa1ae2e595be92f25fb5459f2f',
+        'format' : 'iframe',
+        'height' : 90,
+        'width' : 728,
+        'params' : {}
+    };
+    document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.topdisplaynetwork.com/791b1ffa1ae2e595be92f25fb5459f2f/invoke.js"></scr' + 'ipt>');
+</script>
+
+<!---Ads---->
+ <center>
+                <i>Godzilla vs kong (2021)720</i>:    
+      <button onclick="copyToClipboard('https://letsupload.io/2b41Z/G0dz1lla_vs._K0ng_@GDRIVEMOVIELINKORG_TELEGRAM_72o_(2021).mkv
+')">Copy Link</button>
+        <br />
+        </center>
+ <!----ads---->
+ 
+ <script type="text/javascript">
+    atOptions = {
+        'key' : '791b1ffa1ae2e595be92f25fb5459f2f',
+        'format' : 'iframe',
+        'height' : 90,
+        'width' : 728,
+        'params' : {}
+    };
+    document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.topdisplaynetwork.com/791b1ffa1ae2e595be92f25fb5459f2f/invoke.js"></scr' + 'ipt>');
+</script>
+
+ 
+ <!---ads----->
+
+<!--Ads--->
+
+
+<script type="text/javascript">
+    atOptions = {
+        'key' : '791b1ffa1ae2e595be92f25fb5459f2f',
+        'format' : 'iframe',
+        'height' : 90,
+        'width' : 728,
+        'params' : {}
+    };
+    document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.topdisplaynetwork.com/791b1ffa1ae2e595be92f25fb5459f2f/invoke.js"></scr' + 'ipt>');
+</script>
+
+<!---Ads---->
+
+<!--Ads--->
+
+
+<script type="text/javascript">
+    atOptions = {
+        'key' : '791b1ffa1ae2e595be92f25fb5459f2f',
+        'format' : 'iframe',
+        'height' : 90,
+        'width' : 728,
+        'params' : {}
+    };
+    document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.topdisplaynetwork.com/791b1ffa1ae2e595be92f25fb5459f2f/invoke.js"></scr' + 'ipt>');
+</script>
+
+<!---Ads---->
+
+ <!--Ads--->
+
+
+<script type="text/javascript">
+    atOptions = {
+        'key' : '791b1ffa1ae2e595be92f25fb5459f2f',
+        'format' : 'iframe',
+        'height' : 90,
+        'width' : 728,
+        'params' : {}
+    };
+    document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.topdisplaynetwork.com/791b1ffa1ae2e595be92f25fb5459f2f/invoke.js"></scr' + 'ipt>');
+</script>
+
+<!---Ads---->
+ 
+ <!--Ads--->
+
+
+<script type="text/javascript">
+    atOptions = {
+        'key' : '791b1ffa1ae2e595be92f25fb5459f2f',
+        'format' : 'iframe',
+        'height' : 90,
+        'width' : 728,
+        'params' : {}
+    };
+    document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.topdisplaynetwork.com/791b1ffa1ae2e595be92f25fb5459f2f/invoke.js"></scr' + 'ipt>');
+</script>
+
+<!---Ads---->
+  
+
+<!----- visible timer code -------->
+
+ <p>Download button Appears in
+        <span style="color:red;font-weight: bold;" id="counter">15</span> second(s).</p> 
+        <script type="text/javascript"> 
+        function countdown() { 
+        var i = document.getElementById('counter'); 
+  /*      if (parseInt(i.innerHTML)<=0) { 
+        location.href = 'https://www.google.com'; } */
+        if (parseInt(i.innerHTML)!=0) { 
+        i.innerHTML = parseInt(i.innerHTML)-1; }
+        } 
+        setInterval(function(){ countdown(); },1000); </script>
+
+
+
+<!---- end --------->
+
+
+<center>
+   <a href="https://letsupload.io/2b41Z/G0dz1lla_vs._K0ng_@GDRIVEMOVIELINKORG_TELEGRAM_72o_(2021).mkv">
+ <button id="test" style="display:none;"><b style="background-color:red;width: 130px; height: 60px; line-height: 60px; font-weight: 400; font-size: 25px; font-family: Arial; color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); border-color: rgb(255, 0, 0); border-style: ridge; border-radius: 20px; border-width: 5px;">Download</b></button> </a>
+   
+  </center> 
+
+
+<!--end------------------->
+<br>
+<br>
+<br>
+<center>
+
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RTEr_HpBf3o?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</center>
+
+<br />
+
+
+<!--------Song info ------>
+<center><b style="color:black;" ><ul> Radha song info </ul> </b></center> <br>
+<!---1---->
+
+ <div class="row">
+  <div class="column" style="background-color:white;">
+    <h2 style="color:black;"  class="text-black-500 text-l w-full font-semibold text-center py-3">Singer :</h2>
+    
+  </div>
+  <div class="column" style="background-color:white;">
+    <h2 class="text-red-500 text-l w-full font-semibold text-center py-3">Dhavni Bhanushali</h2>
+    
+  </div>
+</div>
+
+<hr>
+
+<!---2---->
+
+<div class="row2">
+  <div class="column2" style="background-color:white;">
+    <h2 style="color:black;" class="text-black-500 text-l w-full font-semibold text-center py-3"> Lyrics:</h2>
+    
+  </div>
+  <div class="column2" style="background-color:white;">
+    <h2 class="text-red-500 text-l w-full font-semibold text-center py-3">Kunal verma
+</h2>
+    
+  </div>
+</div>
+
+<hr>
+<!--3---->
+
+<div class="row2">
+  <div class="column2" style="background-color:white;">
+    <h2 style="color:black;"  class="text-black-500 text-l w-full font-semibold text-center py-3">Music: </h2>
+    
+  </div>
+  <div class="column2" style="background-color:white;">
+    <h2 class="text-red-500 text-l w-full font-semibold text-center py-3">Abhijit Vaghani</h2>
+    
+  </div>
+</div>
+
+<hr>
+<!-----4------>
+
+<div class="row2">
+  <div class="column2" style="background-color:white;">
+    <h2 class="text-black-500 text-l w-full font-semibold text-center py-3"> Label :</h2>
+    
+  </div>
+  <div class="column2" style="background-color:white;">
+    <h2 class="text-red-500 text-l w-full font-semibold text-center py-3">T-Series</h2>
+    
+  </div>
+</div>
+
+<hr>
+
+<!- button timer--->
+
+<script>
+                
+setTimeout(function() { var button = document.getElementById('test'); button.style.display = "";} , 15000);
+
+
+
+</script>
+
+
+<!--
+<div style="background-color: green;">
+<a href="https://cinewoodlinkfinder.blogspot.com/2021/01/tandav-link.html?m=1">
+<button1 id="test" style="display:none;background-color:red;">Download</button1> </a>
+
+</div>
+
+
+<button id="test" style="display:none;background-color:red;">Download</button> 
+
+
+--->
+
+
+<!----end--------------->
+
+   </div></div></div> 
+   <script>
+                   alert("scroll down to Get Link ");
+   </script>
+ 
+   <!----Ads---->
+   
+   <script async="async" data-cfasync="false" src="//pl15484362.profitablegate.com/5dc63567f42dcf3129e3f0953483608a/invoke.js"></script>
+<div id="container-5dc63567f42dcf3129e3f0953483608a"></div>
+
+<!--copy to clipboard--->
+
+
+<!--- Copy to clipbord htnml----->
+
+</body>
+</html>
